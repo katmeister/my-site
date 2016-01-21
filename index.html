@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="wrapper">
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <img class="post-left" src="{{ post.thumbnail }}" />
+        <div class="post-right">
+          <h1>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h1>
+          <p class="post-caption">
+            {{ post.caption }}
+          </p>
+          <p>
+            {{ post.intro }}
+          </p>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
