@@ -153,6 +153,12 @@
     }
 }
 
+.post-link {
+    a, a:visited {
+        color: $text-color;
+    }
+}
+
 .post-caption {
     text-transform: uppercase;
     font-size: $small-font-size;

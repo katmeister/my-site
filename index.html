@@ -5,9 +5,11 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <img class="post-left" src="{{ post.thumbnail }}" />
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <img class="post-left" src="{{ post.thumbnail }}" />
+        </a>
         <div class="post-right">
-          <h1>
+          <h1 class="post-link">
             <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h1>
           <p class="post-caption">
