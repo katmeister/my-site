@@ -10,7 +10,7 @@ title: Demo Jekyll Portfolio
 email: katherinefukui@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   A demo Jekyll portfolio.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/my-site" # the subpath of your site, e.g. /blog
 url: "http://katfukui.com" # the base hostname & protocol for your site
 twitter_username: katfukui
 github_username:  katmeister
