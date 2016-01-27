@@ -3,7 +3,7 @@ layout: post
 title:  "Food Right Meow"
 date:   2016-01-19 12:37:36 -0800
 categories: product
-thumbnail: /images/thumb-catfood.png
+thumbnail: /my-site/images/thumb-catfood.png
 caption: "Product Design"
 type: "Personal Project"
 info: {Role: Product Designer, Type: Personal, Date: 2016}
@@ -17,7 +17,7 @@ I find the lack of Instacart for cat food apps disturbing so I made my own.
 
 There's literally nothing worse than realizing you're out of your cat's favorite gluten and grain free, organic and free-range grilled chicken wet food.
 
-![cat food examples](/assets/catfood-collage.jpg)
+![cat food examples](/my-site/assets/catfood-collage.jpg)
 </div>
 </div>
 
@@ -39,6 +39,6 @@ Here are some screen sketches of the shopping page, detailed product page, and c
 </div>
 
 <div class="midsize-image" markdown="1">
-  ![wireframes](/assets/catfood-wireframes.jpg)
+  ![wireframes](/my-site/assets/catfood-wireframes.jpg)
 </div>
 </div>

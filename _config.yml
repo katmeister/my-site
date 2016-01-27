@@ -17,7 +17,7 @@ github_username:  katmeister
 dribbble_username: katfukui
 
 # Project URL
-permalink:   /work/:title/
+# permalink:   /work/:title/
 
 # Build settings
 markdown: kramdown
